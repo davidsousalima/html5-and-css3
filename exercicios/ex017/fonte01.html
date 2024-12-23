@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        body{
+            font-family: 'Work Sans',Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas 
+            cm, mm, in, px, pt, pc
+
+
+            Medidas Relativas
+            em, ex, vw, vh, %
+
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            
+            /* lighter normal bold bolder */
+        }
+       h1{
+        /*
+        font-family: 'Work Sans', sans-serif;
+        font-weight: bolder;
+        font-size: 3em;
+        font-style: italic;
+
+        
+        Shorthand font
+
+        -font-style -> font-weight -> font-size -> font-family */
+        font: italic bolder 3em 'Work Sans', sans-serif;
+       }
+       h2{
+        font: bold 2em 'Work Sans';
+       }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab deleniti iure quam atque? Laborum officiis eius architecto commodi id unde ducimus aut animi, nemo qui doloremque, adipisci expedita. Ipsam, exercitationem? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, enim. Non blanditiis aut incidunt illum ex accusamus quam minus voluptate, sapiente, aliquam recusandae minima nostrum iure, labore fugiat officia corporis.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione eos illum rerum blanditiis expedita ad asperiores sunt voluptas optio cum tempora aut fugit, ut natus labore eligendi delectus ullam molestiae!</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nemo alias, nobis non in veniam quam atque voluptas voluptate corporis amet? Eaque repellendus accusamus iste aspernatur reiciendis quidem laborum atque?</p>
+</body>
+</html>
