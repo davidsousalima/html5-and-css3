@@ -1,5 +1,69 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passero+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+:root{
+    --fonte01: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte02:"Passero One", serif;
+    --fonte03:"Sriracha", serif;
+}
 *{
     padding: 0px;
     margin: 0px;
+    font-size: 1em;
+}
+
+html, body{
+    font-family: var(--fonte01);
+    min-height: 100vh;
+    background-color: darkgray;
+}
+header{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte02);
+    font-size: 10vw;
+}
+header > p{
+    padding-bottom: 50px;
+}
+header a, footer a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+section{
+    font-family: var(--fonte03);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3.5vw;
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.imagem{
+    background-color: darkgray;
+    color: white;
+
+}
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.308);
+    display: inline-block;
+    padding: 5px;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
 }
